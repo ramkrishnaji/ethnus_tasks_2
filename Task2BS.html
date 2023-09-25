@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 BS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navheader{ background-color: rgb(255, 187, 0); height: 150px; margin-right: auto;margin-left: auto;}
+      .navbar{background-color: rgb(0, 0, 62); position: relative; top: 6px; width: 1400px;left: 58px;}
+      .carousel{  margin-left: auto;margin-right: auto; height: 550px;}
+      .comphead{font-size: 60px;}
+      .overlay { 
+  color:#000000;
+  position:absolute;
+  z-index:3;
+  top:55%;
+  font-size: 40px;
+  left:0;
+  font-weight: bold;
+  width:100%;
+  text-align:center;
+}   
+      .overlay2 { 
+  color:#000000;
+  position:absolute;
+  z-index:12;
+  top:65%;
+  font-size: 75px;
+  font-weight: bolder;
+  left:0;
+  width:100%;
+  text-align:center;
+}    
+      .overlay3 { 
+  color:#000000;
+  background-color: transparent;
+  position:absolute;
+  z-index:12;
+  top:85%;
+  font-size: 10px;
+  left:0;
+  width:100%;
+  text-align:center;
+}    
+      .navoverlay { 
+  color:#000000;
+  background-color: transparent;
+  position:absolute;
+  z-index:12;
+  left: 1200px;
+  font-size: 10px;
+  text-align:center;
+}    
+.btn {
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 0px;
+            background-color: transparent;
+            height: 50px;
+            font-weight: bold;
+            width: 200px;
+            color: #000000;
+            font-size: 1.5em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        }
+.btn2 {
+            cursor: pointer;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: transparent;
+            height: 40px;
+            width: 150px;
+            color: #ffffff;
+            font-size: 15px;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        }
+        .btn:hover{background-color: rgb(255, 187, 0);}
+        .btn2:hover{color: #000000; background-color: rgb(255, 187, 0);}
+.carouselblock{background-color: transparent; margin-left: auto;margin-right: auto; height: 1013px;}
+.endbox{background-color: rgb(0, 0, 62);height: 180px;}
+.endboxmid{background-color: rgb(255, 187, 0); color:black ;}
+.end{background-color: rgb(0, 64, 255);;margin-left: auto;margin-right: auto;color: rgb(255, 187, 0); }
+.endrow{width: 1519px;margin-inline-start: 0px;position: absolute; left: 0%;}
+.res{width: 65px; position: absolute;bottom: 20px;margin-left: 20px;}
+.endheading{margin-left: 130px; margin-top: 65px;}
+.endpara{margin-left: 130px;}
+.headerres{width: 850px;height: 65px;background-color: rgb(255, 187, 0); position: absolute; top: 13px;left: 605px;}
+.headerimg{width: 50px;}
+.headerheading{position: absolute; top: 2px; margin-left: 65px;}
+.headerpara{position: absolute; top: 30px; margin-left: 65px;}
+    </style>
+  </head>
+  <body>
+    <div class="navheader">
+      <h1 class=" px-2 mx-5 fw-bold comphead">Builderz</h1>
+      <div class="headerres">
+        <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="headerimg" src="hv1.png" alt="">
+            <h5 class="headerheading">Opening Hour</h5>
+            <p class="headerpara">Mon-Fri,9:00-10:00</p>
+          </div>
+          <div class="col">
+            <img  class="headerimg"src="i2.png" alt="">
+            <h5 class="headerheading">Call Us</h5>
+            <p class="headerpara">+9610111170</p>
+
+
+          </div>
+          <div class="col">
+            <img  class="headerimg"src="hv2.png" alt="">
+            <h5 class="headerheading">Email Us</h5>
+            <p class="headerpara">itzkeshav@gmai.com</p>
+
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    <div >
+      <nav class="navbar navbar-expand-lg navbar-light adjust navbar ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navoverlay"><button class="btn2">Get A Quote</button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  p-1">
+            <li class="nav-item active ">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar ends -->
+    </div>
+    </div>
+    <!-- OVERLAY TEXT -->
+    <div class="overlay"><p>We Are Professional</p></div>
+    <div class="overlay2"><p>For Your Dream Project</p></div>
+    <div class="overlay3"><button class="btn">Get a Quote</button></div>
+    <!-- Carousel start -->
+    <div class="carouselblock">
+    <div class="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">      
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="const1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="const2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="const3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- Card last start -->
+    <div class="end">
+    <div class="container endrow ">
+    <div class="row endrow">
+      <div class="col endbox">
+        <img class="res" src="i1.png" alt="">
+        <h3 class="endheading">Expert Worker</h3>
+        <p class="endpara">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+      </div>
+      <div class="col endboxmid">
+        <img class="res" src="i2.png" alt="">
+        <h3 class="endheading">Quality Work</h3>
+        <p class="endpara">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+
+      </div>
+      <div class="col endbox">
+        <img class="res" src="i3.png" alt="">
+        <h3 class="endheading">24/7 Support</h3>
+        <p class="endpara">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+      </div>
+    </div>
+  </div>
+    <!-- Script for carousel -->
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  </body>
+</html>

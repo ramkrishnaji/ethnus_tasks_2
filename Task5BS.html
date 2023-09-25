@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 BS</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <style>    
+    .formdiv{width: 550px;height: 700px; background-color: rgb(235, 235, 235);position: absolute;left: 480px;top: 10px;}
+    .inpalg{padding-left: 65px; width: 430px;}
+    .imgsize{width: 30px;padding-left: 11px;margin-top: 10px;}
+    .imgsizetxt{width: 30px;padding-left: 11px;margin-top: 20px;}
+    .imgdiv{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 0px;right: 352px;}
+    .imgdiv2{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 62px;right: 352px;}
+    .imgdiv3{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 124px;right: 352px;}
+    .imgdiv4{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 186px;right: 352px;}
+    .imgdiv5{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 248px;right: 352px;}
+    .imgdiv6{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 310px;right: 352px;}
+    .imgdiv7{width: 40px;height: 37px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 372px;right: 352px;}
+    .imgdiv8{width: 40px;height: 60px;background-color: rgba(205, 205, 205, 0.879); display: inline; position: absolute; top: 434px;right: 352px;}
+</style>
+</head>
+<body>
+    <div class="formdiv">
+
+      <form>
+        <div class="form-group row ">
+          <label for="fname" class="col-sm-3 col-form-label">First Name</label>
+          <div class="col-sm-10 inpalg">
+            <div class="imgdiv">
+              <img class="imgsize" src="user.png" alt="">
+            </div>
+            <input type="text" class="form-control" placeholder="First Name" id="fname">
+          </div>
+        </div><br>
+        <div class="form-group row">
+          <label for="lname" class="col-sm-3 col-form-label">Last Name</label>
+          <div class="col-sm-9 inpalg">
+            <div class="imgdiv2">
+              <img class="imgsize" src="user.png" alt="">
+            </div>
+            <input type="text" class="form-control" placeholder="Last Name" id="lname">
+          </div>
+        </div><br>
+        <div class="form-group row">
+          <label for="lname" class="col-sm-3 col-form-label">Email</label>
+          <div class="col-sm-9 inpalg">
+            <div class="imgdiv3">
+              <img class="imgsize" src="email.png" alt="">
+            </div>
+
+            <input type="email" class="form-control" placeholder="E-mail Address" id="email">
+          </div>
+        </div><br>
+        <div class="form-group row">
+          <label for="phone" class="col-sm-3 col-form-label">Phone</label>
+          <div class="col-sm-9 inpalg">
+            <div class="imgdiv4">
+              <img class="imgsize" src="phone.png"  alt="">
+            </div>
+
+            <input type="number" class="form-control" placeholder="9950003662" id="phone">
+          </div>
+        </div><br>
+        <div class="form-group row">
+          <label for="address" class="col-sm-3 col-form-label">Address</label>
+          <div class="col-sm-9 inpalg">
+            <div class="imgdiv5"><img class="imgsize" src="home.png" alt=""></div>
+
+            <input type="text" class="form-control" placeholder="Address" id="address">
+          </div>
+        </div><br>
+        <div class="form-group row">
+          <label for="city" class="col-sm-3 col-form-label">City</label>
+          <div class="col-sm-9 inpalg"> 
+            <div class="imgdiv6"><img class="imgsize" src="home.png" alt=""></div>
+        
+            <input type="text" class="form-control" placeholder="City" id="city">
+          </div>
+        </div><br>
+        <div class="form-group row">
+          <label for="state" class="col-sm-3 col-form-label">State</label>
+          <div class="col-sm-9 inpalg">
+            <div class="imgdiv7">
+              <img class="imgsize" src="menu.png" alt="">
+            </div>
+            <select class="form-control">
+              <option> Please Select State</option>
+            </select>
+            </div>
+        </div><br>
+        <div class="form-group row ">
+          <label for="fname" class="col-sm-3 col-form-label">Project Description</label>
+          <div class="col-sm-10 inpalg">
+            <div class="imgdiv8">
+              <img class="imgsizetxt" src="pencil.png" alt="">
+            </div>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Project Description"></textarea>
+          </div>
+        </div><br>
+        <fieldset class="form-group">
+          <div class="row">
+            <label for="fname" class="col-sm-3 col-form-label">Do you have a hosting</label>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Yes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  No
+                </label>
+              </div>
+              <br>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-warning">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</body>
+</html>

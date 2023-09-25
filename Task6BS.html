@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6 BS</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+    <style>
+        .formdiv{width: 550px;height: 550px; background-color: rgb(235, 235, 235);position: absolute;left: 480px;top: 45px;}
+        .btnsize{width: 455px;height: 40px;}
+    </style>
+</head>
+<body>
+    <div class="formdiv pt-2 p-5">
+        <form action="login">
+            <label for="Name" class="form-label">Name</label>
+            <div class="input-group has-validation">
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                  Name is required.
+                </div>
+              </div><br> 
+              <label for="Email" class="form-label">Email</label>
+              <div class="input-group has-validation">
+                <input type="email" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Email is required.
+                </div>
+              </div><br>
+              <label for="pass" class="form-label">Password</label>
+              <div class="input-group has-validation">
+                <input type="password" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                  Password is required.
+                </div>
+              </div><br>
+              <div class="form-group">
+                <label for="sel1">Hobbies</label>
+                <select class="form-control" id="sel1">
+                  <option>Coding</option>
+                  <option>Swimming</option>
+                  <option>Cricket</option>
+                  <option>Studying</option>
+                </select>
+              </div><br>
+                <button class="btn btn-primary bg-danger border-danger btnsize" type="submit">Submit</button>
+          </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6 CSS</title>
+    <style>
+        .front{background-color: white; width: 550px; height: 690px; display: inline-block;margin-left: 500px;}
+        img{margin-left: auto; margin-right: auto; display: block; margin-left: auto;margin-right: auto; border: 10px;border-radius: 6000px;
+        background-color: whitesmoke;max-width: 60%;}
+        label{margin-left: 7px;}
+        .field{width: 540px;padding: 1px; height: 27px; margin-left: 2px; text-indent: 5px;}
+        .login{width: 545px;padding: 1px; height: 38px;margin-left: 2px; background-color: #4CAF50;color: white; border: 1px;}
+        .forgot{background-color: rgb(221, 220, 220); width: 540px;padding: 1px; height: 53px; margin-left: 3px;}
+        .cancel{background-color: #f44336;color: white; border: 1px; border-radius: 7px;width: 85px; height: 37px; font-weight: bold;
+                margin-top: 12px; margin-left: 3px;
+        }
+        .forgotLink{position: relative;left: 320px;}
+        .forgotLabel{position: relative;left: 320px;}
+        .login:hover{background-color: #3f9342;border-color: black;}
+        .cancel:hover{background-color: #be2e23;}
+        .forgotLink:hover{color: red;}
+        input:hover{border-color: black;}
+        
+
+    </style>
+</head>
+<body>
+    <div class="front">
+        <img src="login.png" alt="No Preview">
+        <form action="">
+            <label for="username" style="font-weight: bold;">Username</label><br>
+            <input class="field" type="text" placeholder="Enter Username"><br><br>
+            <label for="pass" style="font-weight: bold;">Password</label><br>
+            <input class="field" type="password" placeholder="Enter Password"><br><br>
+            <button class="login" type="submit">Login</button><br><br>
+            <input type="checkbox">Remember me</label><br><br>
+        </form>
+        <div class="forgot">
+            <button class="cancel" type="reset">Cancel</button>
+            <label class="forgotLabel" for="forgot">Forgot</label>
+            <a class="forgotLink" href="#">password?</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7 CSS</title>
+    <style>
+      div {
+        background-color: rgb(134, 24, 70);
+        width: 700px;
+        height: 590px;
+        position: absolute;
+        left: 420px;
+        top: 45px;
+      }
+      label {
+        width: 130px;
+        display: inline-block;
+      }
+      form {
+        padding-left: 150px;
+        padding-top: 75px;
+        color: white;
+      }
+      p {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(189, 37, 100);">
+    <div>
+      <form>
+        <label for="fname">Name:</label>
+        <input style="width: 220px; height: 23px;" type="text" placeholder="your name" id="fname" name="fname" /><br /><br />
+        <label  for="email">Email:</label>
+        <input style="width: 220px; height: 23px;" placeholder="your email" type="email" /><br /><br />
+        <label for="Pass">Password:</label>
+        <input style="width: 220px; height: 23px;" type="password" id="Pass" name="Pass" /><br /><br />
+        <label for="phone">Phone Number:</label>
+        <input style="width: 220px; height: 23px;" type="tel" /><br /><br />
+        <label for="gender">Gender:</label>
+        <p>Male :</p>
+        <input type="radio" />
+        <p>Female :</p>
+        <input type="radio" />
+        <p>Other :</p>
+        <input type="radio" /> <br /><br />
+        <label for="Language">Language:</label>
+        <select style="height: 30px; width: 150px;" id="Gender">
+          <option id="language" value="language">Select Language</option>
+          <option id="hindi" value="hindi">hindi</option>
+          <option id="english" value="English">English</option></select
+        ><br /><br />
+        <label for="zip">Zipcode:</label>
+        <input  style="height: 23px; width: 220px;" type="number"><br><br>
+        <label  for="about">About:</label>
+        <textarea placeholder="Write about yourself..."  rows="2" cols="25"></textarea><br><br>
+        <button style="width: 400px;height: 45px; border: 1px; border-radius: 10px; font-weight: bold; font-size: 21px;">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
